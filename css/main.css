@@ -1,0 +1,89 @@
+span{
+    color: rgb(168, 20, 27);
+}
+
+.container{    
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+#principal{
+    background-color: brown;
+}
+img{
+    display:block;
+    object-fit: cover;
+}
+
+.main-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.título-um{
+    text-align: center;
+    grid-column: 1/3;
+    padding: 24px;
+    color: #e7e7e7;
+
+}
+
+.titulo-dois{
+    color: #e7e7e7;
+}
+
+.dragao{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    
+    
+}
+
+.dragao-pequeno{
+    display: flex;
+    margin-top: 12px;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.main-texto{
+    align-self: flex-start;
+    padding-left: 100px;
+}
+
+.main-texto p{
+    color: #e7e7e7;
+    font-family: 'roboto';
+    font-weight: 500;
+    line-height: 3ch;
+}
+
+@media(max-width:1000px){
+    .main-conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+    .dragao{
+        display:flex;
+        
+    }
+}
+
+@media(max-width:600px){
+    .dragao-pequeno img{
+        display: none;
+    }
+    .main-texto{
+        padding: 12px;
+    }
+
+    #principal, #racas, #classes{
+        padding: 12px;
+    }
+}

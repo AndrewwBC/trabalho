@@ -1,0 +1,90 @@
+.mago, .patrulheiro, .druida{
+    grid-column: 2;
+}
+
+.patrulheiro{
+    grid-row: 2;
+}
+
+.main-classes{
+    margin-top: 60px;
+}
+
+#classe{
+    background-color: brown;
+}
+
+
+.grid{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formulario-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.dados-pessoais{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario{
+    display: grid;
+    grid-template-columns: max-content;
+    color: brown;
+
+}
+
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 12px;
+    
+    
+ 
+}
+
+.botao button{
+    padding: 12px 16px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao button:hover{
+    background-color: aliceblue;
+    color: black;
+    
+}
+
+.tabela{
+    background-color: beige;
+}
+
+.texto{
+    padding-left: 40px;
+    text-align: start;
+    color: aliceblue;
+    border: 1px solid #c9c9c954;
+    border-radius: 6px;
+}
+
+@media(max-width:800px){
+    .grid{
+        padding: 40px;
+        grid-template-columns: 1fr;
+    }
+
+}

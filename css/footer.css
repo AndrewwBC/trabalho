@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    color: #f7f7f7;
+    margin: 0 auto;
+    margin-top: 36px;
+    padding: 2px;
+    text-align: center;
+    
+    
+}
+
+.footer-div{
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}

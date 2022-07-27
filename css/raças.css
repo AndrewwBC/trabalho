@@ -1,0 +1,63 @@
+.raças-lista img{
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#raças{
+    background-color: rgb(221, 36, 36);
+}
+.container2{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.raças-lista{
+   padding-top: 120px;
+   margin-bottom: 120px;
+   display: flex;
+   flex-direction: row;
+   gap: 60px;
+}
+
+.raças-lista img{
+    max-height: 500px;
+}
+
+blockquote{
+    color: brown;
+}
+
+.raças-lista h2{
+    color: aliceblue;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.raças-lista h2::before{
+    content: "";
+    width: 12px;
+    height: 4px;
+    background-color: brown;
+    margin-right: 8px;
+    top: 10px;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.raças-lista h2:hover::before{
+    width: 20px;
+}
+
+@media(max-width:1000px){
+    .raças-lista{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:600px){
+    #princip, #raças, #class{
+        padding: 12px;
+    }
+}

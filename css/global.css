@@ -1,0 +1,29 @@
+@import url("./main.css");
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./raças.css");
+@import url("./classes.css");
+
+
+body {
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+}
+
+h1, p, ul, a , li {
+    padding: 0;
+    margin: 0;
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 12px;
+}
