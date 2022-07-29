@@ -43,16 +43,64 @@
 }
 
 
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 12px;
+    
+}
+
+.cor {
+    color: #a52727;
+}
+
+.lista-ordenada{
+    color: aliceblue;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.botao-footer{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.botao-footer a{
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #e7e7e7;
+    display: block;
+    max-width: max-content;
+    place-self: center;
+    color: black;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.botao-footer a:hover{
+    background-color: rgb(87, 22, 22);
+    color: aliceblue;
+}
+
 .botao{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 12px;
-    
-    
- 
 }
 
+.dados-pessoais label{
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+address a{
+    color: #e7e7e7;
+}
+address a:hover{
+    color: #500d0d;
+}
 .botao button{
     padding: 12px 16px;
     background-color: black;
@@ -70,7 +118,7 @@
 }
 
 .tabela{
-    background-color: beige;
+    background-color: rgb(68, 68, 68);
 }
 
 .texto{

@@ -17,7 +17,7 @@ h1, p, ul, a , li {
     margin: 0;
 }
 
-a, li{
+a{
     list-style: none;
     text-decoration: none;
 }

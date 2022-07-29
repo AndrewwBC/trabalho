@@ -46,6 +46,34 @@ blockquote{
     transition: 0.5s;
 }
 
+article table{
+    margin: 0 auto;
+}
+
+.row td{
+    text-align: center;
+    padding: 8px;
+
+}
+
+.tabela tr{
+    background-color: #797979;
+}
+
+.tabela td{
+    border: 2px solid #101010;
+}
+
+.tabela th{
+    border: 2px solid #4b4b4b;
+}
+
+
+
+.row{
+    border: 2px solid #101010;
+}
+
 .raças-lista h2:hover::before{
     width: 20px;
 }

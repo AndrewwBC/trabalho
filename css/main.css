@@ -64,6 +64,8 @@ img{
     line-height: 3ch;
 }
 
+
+
 @media(max-width:1000px){
     .main-conteudo{
         display: flex;
